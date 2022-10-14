@@ -6,8 +6,6 @@ void main(
 	inout TriangleStream< GSOutput > output
 )
 {
-	for (uint i = 0; i < 3; i++)
-	{
 		GSOutput element;
 		element.svpos = input[i].svpos;
 		element.normal = input[i].normal;
